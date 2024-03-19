@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <div className="App" tabIndex={0} onKeyDown={handleKeyPress} >
-      <svg width={'100%'} height={'800px'}>
+      <svg width={'100%'} height={'600px'}>
       {
       circles.map((circle)=>{
         
